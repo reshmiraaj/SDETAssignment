@@ -1,0 +1,59 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-06-02T14:40:48.345Z",
+        "line": 3,
+        "name": "All the users of City FanCode should have more than half of their todos task completed.",
+        "description": "",
+        "id": "validate-fancode-users-todos-completion;all-the-users-of-city-fancode-should-have-more-than-half-of-their-todos-task-completed.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2456189100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User has the todo tasks",
+            "match": {
+              "location": "com.assignment.stepdefinition.UsersTodosTaskCompletion.users_has_the_todo_tasks()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1775110200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User belongs to the city FanCode",
+            "match": {
+              "location": "com.assignment.stepdefinition.UsersTodosTaskCompletion.user_belongs_to_the_city_fancode()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Completed task percentage should be greater than 50%",
+            "match": {
+              "location": "com.assignment.stepdefinition.UsersTodosTaskCompletion.the_completed_task_percentage_should_be_greater_than_50()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validate FanCode users todos completion",
+    "description": "",
+    "id": "validate-fancode-users-todos-completion",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/fancode.feature",
+    "tags": []
+  }
+]
