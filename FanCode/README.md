@@ -23,4 +23,6 @@ Execute the following command to run the tests:
 ```bash
 mvn test
 
+Execute the src/test/java/com/assignment/runners/TestRunner.java
+
 After running the tests, the HTML report will be generated in the target/cucumber-html-report directory & in test-output/emailable-report.html.
